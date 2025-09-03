@@ -40,7 +40,7 @@ const Logo: React.FC<LogoProps> = ({
       
       {showText && (
         <span className={`font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent ${textSizeClasses[size]}`}>
-          BildungVisa
+          bildungvisa.de
         </span>
       )}
     </div>
