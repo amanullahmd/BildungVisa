@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="contactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="officeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="consultantGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#contactBg)"/>
+  
+  <!-- Office Building -->
+  <rect x="200" y="300" width="400" height="500" fill="url(#officeGrad)" rx="10"/>
+  <rect x="220" y="320" width="60" height="80" fill="#3b82f6" opacity="0.8"/>
+  <rect x="300" y="320" width="60" height="80" fill="#10b981" opacity="0.8"/>
+  <rect x="380" y="320" width="60" height="80" fill="#f59e0b" opacity="0.8"/>
+  <rect x="460" y="320" width="60" height="80" fill="#ef4444" opacity="0.8"/>
+  
+  <!-- Consultation Room -->
+  <rect x="700" y="400" width="500" height="300" fill="#ffffff" rx="15" opacity="0.9"/>
+  <rect x="720" y="420" width="460" height="20" fill="#1e40af" rx="10"/>
+  
+  <!-- Conference Table -->
+  <ellipse cx="950" cy="550" rx="150" ry="60" fill="#8b5cf6"/>
+  
+  <!-- Consultant Figure -->
+  <circle cx="900" cy="480" r="25" fill="url(#consultantGrad)"/>
+  <rect x="885" y="505" width="30" height="60" fill="#1f2937" rx="15"/>
+  <rect x="875" y="520" width="50" height="40" fill="#3b82f6" rx="5"/>
+  
+  <!-- Client Figure -->
+  <circle cx="1000" cy="480" r="25" fill="#f472b6"/>
+  <rect x="985" y="505" width="30" height="60" fill="#1f2937" rx="15"/>
+  <rect x="975" y="520" width="50" height="40" fill="#10b981" rx="5"/>
+  
+  <!-- Documents on Table -->
+  <rect x="920" y="530" width="30" height="20" fill="#ffffff" rx="2"/>
+  <rect x="960" y="535" width="25" height="15" fill="#fbbf24" rx="2"/>
+  
+  <!-- Communication Icons -->
+  <circle cx="1400" cy="200" r="40" fill="#10b981" opacity="0.8"/>
+  <text x="1400" y="210" text-anchor="middle" fill="white" font-size="24">📞</text>
+  
+  <circle cx="1500" cy="250" r="40" fill="#3b82f6" opacity="0.8"/>
+  <text x="1500" y="260" text-anchor="middle" fill="white" font-size="24">✉️</text>
+  
+  <circle cx="1600" cy="200" r="40" fill="#f59e0b" opacity="0.8"/>
+  <text x="1600" y="210" text-anchor="middle" fill="white" font-size="24">💬</text>
+  
+  <!-- Success Elements -->
+  <circle cx="1300" cy="600" r="30" fill="#10b981" opacity="0.7"/>
+  <text x="1300" y="610" text-anchor="middle" fill="white" font-size="20">✓</text>
+  
+  <circle cx="1400" cy="650" r="30" fill="#3b82f6" opacity="0.7"/>
+  <text x="1400" y="660" text-anchor="middle" fill="white" font-size="20">🎯</text>
+  
+  <!-- European Elements -->
+  <rect x="100" y="100" width="60" height="40" fill="#fbbf24"/>
+  <rect x="100" y="140" width="60" height="40" fill="#ef4444"/>
+  <rect x="100" y="180" width="60" height="40" fill="#1f2937"/>
+  
+  <!-- Contact Information Visual -->
+  <rect x="1300" y="400" width="200" height="150" fill="#ffffff" rx="10" opacity="0.9"/>
+  <text x="1400" y="430" text-anchor="middle" fill="#1e40af" font-size="16" font-weight="bold">CONTACT INFO</text>
+  <text x="1320" y="460" fill="#374151" font-size="12">📍 Office Location</text>
+  <text x="1320" y="480" fill="#374151" font-size="12">📞 +880 1712-345678</text>
+  <text x="1320" y="500" fill="#374151" font-size="12">✉️ info@ausbildungvisa.com</text>
+  <text x="1320" y="520" fill="#374151" font-size="12">🕒 9 AM - 6 PM</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="300" cy="150" r="20" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1700" cy="900" r="30" fill="#ffffff" opacity="0.2"/>
+  <circle cx="150" cy="800" r="25" fill="#10b981" opacity="0.4"/>
+  
+  <!-- Title Placeholder -->
+  <rect x="600" y="800" width="720" height="80" fill="#ffffff" rx="10" opacity="0.9"/>
+  <text x="960" y="850" text-anchor="middle" fill="#1e40af" font-size="32" font-weight="bold">GET IN TOUCH WITH EXPERTS</text>
+</svg>

@@ -1,0 +1,123 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tableGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Office Background -->
+  <rect width="800" height="600" fill="url(#wallGradient)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#D1D5DB"/>
+  
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="800" height="500" fill="url(#wallGradient)"/>
+  
+  <!-- Windows -->
+  <rect x="600" y="50" width="150" height="200" fill="#87CEEB" stroke="#6B7280" stroke-width="3" rx="5"/>
+  <line x1="675" y1="50" x2="675" y2="250" stroke="#6B7280" stroke-width="2"/>
+  <line x1="600" y1="150" x2="750" y2="150" stroke="#6B7280" stroke-width="2"/>
+  
+  <!-- City View Through Window -->
+  <rect x="610" y="60" width="60" height="80" fill="#4A90E2" opacity="0.3"/>
+  <rect x="680" y="80" width="40" height="60" fill="#4A90E2" opacity="0.3"/>
+  <rect x="620" y="160" width="50" height="80" fill="#10B981" opacity="0.3"/>
+  
+  <!-- Conference Table -->
+  <ellipse cx="400" cy="400" rx="200" ry="80" fill="url(#tableGradient)"/>
+  
+  <!-- Chairs Around Table -->
+  <rect x="200" y="350" width="40" height="60" fill="#374151" rx="20"/>
+  <rect x="560" y="350" width="40" height="60" fill="#374151" rx="20"/>
+  <rect x="350" y="320" width="40" height="60" fill="#374151" rx="20"/>
+  <rect x="410" y="320" width="40" height="60" fill="#374151" rx="20"/>
+  
+  <!-- Chair Details -->
+  <rect x="205" y="340" width="30" height="5" fill="#4B5563" rx="2"/>
+  <rect x="565" y="340" width="30" height="5" fill="#4B5563" rx="2"/>
+  <rect x="355" y="310" width="30" height="5" fill="#4B5563" rx="2"/>
+  <rect x="415" y="310" width="30" height="5" fill="#4B5563" rx="2"/>
+  
+  <!-- Documents on Table -->
+  <rect x="350" y="380" width="30" height="40" fill="white" stroke="#E5E7EB" stroke-width="1" rx="2"/>
+  <rect x="420" y="385" width="25" height="35" fill="white" stroke="#E5E7EB" stroke-width="1" rx="2"/>
+  
+  <!-- Laptop -->
+  <rect x="300" y="375" width="40" height="30" fill="#374151" rx="2"/>
+  <rect x="305" y="378" width="30" height="20" fill="#1F2937" rx="1"/>
+  
+  <!-- Coffee Cups -->
+  <circle cx="480" cy="390" r="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="480" cy="390" r="6" fill="#8B4513"/>
+  
+  <circle cx="250" cy="385" r="7" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="250" cy="385" r="5" fill="#8B4513"/>
+  
+  <!-- Wall Mounted Screen -->
+  <rect x="50" y="100" width="200" height="120" fill="url(#screenGradient)" rx="5"/>
+  <rect x="60" y="110" width="180" height="100" fill="#1E40AF" rx="3"/>
+  
+  <!-- Screen Content (Charts) -->
+  <rect x="80" y="130" width="20" height="40" fill="#10B981"/>
+  <rect x="110" y="140" width="20" height="30" fill="#3B82F6"/>
+  <rect x="140" y="125" width="20" height="45" fill="#F59E0B"/>
+  <rect x="170" y="135" width="20" height="35" fill="#EF4444"/>
+  
+  <!-- Success Statistics Text -->
+  <text x="150" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SUCCESS RATE: 98%</text>
+  
+  <!-- Bookshelf -->
+  <rect x="650" y="300" width="120" height="200" fill="#8B4513" rx="4"/>
+  <rect x="660" y="310" width="100" height="30" fill="#A0522D"/>
+  <rect x="660" y="350" width="100" height="30" fill="#A0522D"/>
+  <rect x="660" y="390" width="100" height="30" fill="#A0522D"/>
+  <rect x="660" y="430" width="100" height="30" fill="#A0522D"/>
+  
+  <!-- Books -->
+  <rect x="665" y="315" width="8" height="20" fill="#DC2626"/>
+  <rect x="675" y="315" width="8" height="20" fill="#2563EB"/>
+  <rect x="685" y="315" width="8" height="20" fill="#16A34A"/>
+  <rect x="695" y="315" width="8" height="20" fill="#CA8A04"/>
+  
+  <!-- Awards and Certificates -->
+  <rect x="30" y="300" width="80" height="100" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2" rx="4"/>
+  <circle cx="70" cy="330" r="15" fill="#F59E0B"/>
+  <polygon points="70,320 75,330 85,330 77,337 80,347 70,342 60,347 63,337 55,330 65,330" fill="#FFFFFF"/>
+  <text x="70" y="365" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="10" font-weight="bold">EXCELLENCE</text>
+  <text x="70" y="380" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="10">AWARD 2025</text>
+  
+  <!-- Plants -->
+  <rect x="750" y="450" width="15" height="50" fill="#8B4513"/>
+  <circle cx="757" cy="440" r="20" fill="#16A34A"/>
+  <circle cx="750" cy="435" r="12" fill="#22C55E"/>
+  <circle cx="765" cy="445" r="15" fill="#15803D"/>
+  
+  <!-- European Flags -->
+  <rect x="500" y="50" width="30" height="20" fill="#003399"/>
+  <circle cx="515" cy="60" r="8" fill="#FFCC00"/>
+  
+  <rect x="540" y="50" width="30" height="20" fill="#000000"/>
+  <rect x="540" y="50" width="30" height="7" fill="#DD0000"/>
+  <rect x="540" y="63" width="30" height="7" fill="#FFCE00"/>
+  
+  <!-- Professional Lighting -->
+  <circle cx="400" cy="50" r="30" fill="#FEF3C7" opacity="0.8"/>
+  <circle cx="400" cy="50" r="20" fill="#FDE68A" opacity="0.6"/>
+  
+  <!-- Consultation Success Indicators -->
+  <circle cx="150" cy="250" r="15" fill="#10B981"/>
+  <path d="M142 250 L148 256 L158 244" stroke="white" stroke-width="2" fill="none"/>
+  
+  <circle cx="650" cy="250" r="15" fill="#3B82F6"/>
+  <rect x="645" y="245" width="10" height="10" fill="white" rx="1"/>
+</svg>

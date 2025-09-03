@@ -1,0 +1,146 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screenBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Browser Window -->
+  <rect width="800" height="600" fill="#1f2937" rx="8"/>
+  
+  <!-- Browser Header -->
+  <rect x="0" y="0" width="800" height="40" fill="#374151" rx="8 8 0 0"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="20" cy="20" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="20" r="6" fill="#fbbf24"/>
+  <circle cx="60" cy="20" r="6" fill="#10b981"/>
+  
+  <!-- URL Bar -->
+  <rect x="100" y="10" width="600" height="20" fill="#ffffff" rx="10"/>
+  <text x="110" y="23" fill="#6b7280" font-family="Arial" font-size="10">https://ausbildungvisa.com/visa-process</text>
+  
+  <!-- Main Content Area -->
+  <rect x="0" y="40" width="800" height="560" fill="url(#screenBg)"/>
+  
+  <!-- German Flag Header -->
+  <rect x="0" y="40" width="800" height="4" fill="#000000"/>
+  <rect x="0" y="44" width="800" height="4" fill="#dd0000"/>
+  <rect x="0" y="48" width="800" height="4" fill="#ffce00"/>
+  
+  <!-- Navigation Bar -->
+  <rect x="0" y="52" width="800" height="50" fill="#1e40af" opacity="0.9"/>
+  <text x="50" y="75" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">AusbildungVisa</text>
+  <text x="200" y="75" fill="#ffffff" font-family="Arial" font-size="10">Home</text>
+  <text x="250" y="75" fill="#ffffff" font-family="Arial" font-size="10">Services</text>
+  <text x="310" y="75" fill="#fbbf24" font-family="Arial" font-size="10" font-weight="bold">Visa Process</text>
+  <text x="390" y="75" fill="#ffffff" font-family="Arial" font-size="10">About</text>
+  <text x="440" y="75" fill="#ffffff" font-family="Arial" font-size="10">Contact</text>
+  
+  <!-- Main Heading -->
+  <text x="400" y="140" text-anchor="middle" fill="#1e40af" font-family="Arial" font-size="24" font-weight="bold">German Visa Application Process</text>
+  <text x="400" y="160" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="12">Step-by-step guide to your German dream</text>
+  
+  <!-- Process Steps -->
+  
+  <!-- Step 1 -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="150" height="120" fill="#ffffff" rx="8" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="75" cy="30" r="20" fill="#3b82f6"/>
+    <text x="75" y="37" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">1</text>
+    <text x="75" y="55" text-anchor="middle" fill="#1e40af" font-family="Arial" font-size="12" font-weight="bold">Initial Consultation</text>
+    <text x="75" y="70" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">Free assessment of</text>
+    <text x="75" y="82" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">your eligibility and</text>
+    <text x="75" y="94" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">requirements</text>
+    <rect x="10" y="105" width="130" height="8" fill="#3b82f6" opacity="0.3" rx="4"/>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M260 260 L290 260 L285 255 M290 260 L285 265" stroke="#10b981" stroke-width="3" fill="none"/>
+  
+  <!-- Step 2 -->
+  <g transform="translate(300, 200)">
+    <rect x="0" y="0" width="150" height="120" fill="#ffffff" rx="8" stroke="#10b981" stroke-width="2"/>
+    <circle cx="75" cy="30" r="20" fill="#10b981"/>
+    <text x="75" y="37" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">2</text>
+    <text x="75" y="55" text-anchor="middle" fill="#10b981" font-family="Arial" font-size="12" font-weight="bold">Document Preparation</text>
+    <text x="75" y="70" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">Gather and prepare</text>
+    <text x="75" y="82" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">all required documents</text>
+    <text x="75" y="94" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">and translations</text>
+    <rect x="10" y="105" width="130" height="8" fill="#10b981" opacity="0.3" rx="4"/>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M460 260 L490 260 L485 255 M490 260 L485 265" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  
+  <!-- Step 3 -->
+  <g transform="translate(500, 200)">
+    <rect x="0" y="0" width="150" height="120" fill="#ffffff" rx="8" stroke="#fbbf24" stroke-width="2"/>
+    <circle cx="75" cy="30" r="20" fill="#fbbf24"/>
+    <text x="75" y="37" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">3</text>
+    <text x="75" y="55" text-anchor="middle" fill="#f59e0b" font-family="Arial" font-size="12" font-weight="bold">Application Submission</text>
+    <text x="75" y="70" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">Submit application</text>
+    <text x="75" y="82" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">to German consulate</text>
+    <text x="75" y="94" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">or embassy</text>
+    <rect x="10" y="105" width="130" height="8" fill="#fbbf24" opacity="0.3" rx="4"/>
+  </g>
+  
+  <!-- Step 4 -->
+  <g transform="translate(200, 350)">
+    <rect x="0" y="0" width="150" height="120" fill="#ffffff" rx="8" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="75" cy="30" r="20" fill="#8b5cf6"/>
+    <text x="75" y="37" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">4</text>
+    <text x="75" y="55" text-anchor="middle" fill="#7c3aed" font-family="Arial" font-size="12" font-weight="bold">Interview Preparation</text>
+    <text x="75" y="70" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">Prepare for visa</text>
+    <text x="75" y="82" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">interview with our</text>
+    <text x="75" y="94" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">expert guidance</text>
+    <rect x="10" y="105" width="130" height="8" fill="#8b5cf6" opacity="0.3" rx="4"/>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M360 410 L390 410 L385 405 M390 410 L385 415" stroke="#ef4444" stroke-width="3" fill="none"/>
+  
+  <!-- Step 5 -->
+  <g transform="translate(400, 350)">
+    <rect x="0" y="0" width="150" height="120" fill="#ffffff" rx="8" stroke="#ef4444" stroke-width="2"/>
+    <circle cx="75" cy="30" r="20" fill="#ef4444"/>
+    <text x="75" y="37" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">5</text>
+    <text x="75" y="55" text-anchor="middle" fill="#dc2626" font-family="Arial" font-size="12" font-weight="bold">Visa Approval</text>
+    <text x="75" y="70" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">Receive your</text>
+    <text x="75" y="82" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">approved visa and</text>
+    <text x="75" y="94" text-anchor="middle" fill="#6b7280" font-family="Arial" font-size="9">start your journey</text>
+    <rect x="10" y="105" width="130" height="8" fill="#ef4444" opacity="0.3" rx="4"/>
+  </g>
+  
+  <!-- Success Statistics -->
+  <g transform="translate(50, 500)">
+    <rect x="0" y="0" width="700" height="80" fill="#ffffff" opacity="0.9" rx="8"/>
+    <text x="350" y="25" text-anchor="middle" fill="#1e40af" font-family="Arial" font-size="16" font-weight="bold">Our Success Record</text>
+    
+    <!-- Stat 1 -->
+    <circle cx="120" cy="55" r="25" fill="#10b981" opacity="0.8"/>
+    <text x="120" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">95%</text>
+    <text x="120" y="62" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Success Rate</text>
+    
+    <!-- Stat 2 -->
+    <circle cx="280" cy="55" r="25" fill="#3b82f6" opacity="0.8"/>
+    <text x="280" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">500+</text>
+    <text x="280" y="62" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Clients Served</text>
+    
+    <!-- Stat 3 -->
+    <circle cx="440" cy="55" r="25" fill="#fbbf24" opacity="0.8"/>
+    <text x="440" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">10+</text>
+    <text x="440" y="62" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Years Experience</text>
+    
+    <!-- Stat 4 -->
+    <circle cx="580" cy="55" r="25" fill="#8b5cf6" opacity="0.8"/>
+    <text x="580" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">24/7</text>
+    <text x="580" y="62" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="8">Support</text>
+  </g>
+  
+  <!-- CTA Button -->
+  <rect x="300" y="520" width="200" height="40" fill="#1e40af" rx="20"/>
+  <text x="400" y="545" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">Start Your Application</text>
+  
+</svg>

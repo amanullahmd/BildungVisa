@@ -1,0 +1,81 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="suitGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Professional Office Background -->
+  <rect x="0" y="300" width="400" height="100" fill="#E2E8F0"/>
+  <rect x="50" y="250" width="80" height="150" fill="#CBD5E1" rx="4"/>
+  <rect x="270" y="280" width="60" height="120" fill="#CBD5E1" rx="4"/>
+  
+  <!-- Office Windows -->
+  <rect x="60" y="270" width="12" height="15" fill="#3B82F6" rx="1"/>
+  <rect x="80" y="270" width="12" height="15" fill="#3B82F6" rx="1"/>
+  <rect x="100" y="270" width="12" height="15" fill="#3B82F6" rx="1"/>
+  
+  <!-- Professional Person -->
+  <!-- Head -->
+  <circle cx="200" cy="150" r="45" fill="#F3E8D3"/>
+  
+  <!-- Hair -->
+  <path d="M155 130 Q200 100 245 130 Q240 120 200 115 Q160 120 155 130" fill="#4A4A4A"/>
+  
+  <!-- Eyes -->
+  <circle cx="185" cy="145" r="3" fill="#2D3748"/>
+  <circle cx="215" cy="145" r="3" fill="#2D3748"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="155" rx="2" ry="4" fill="#E2C2A2"/>
+  
+  <!-- Mouth -->
+  <path d="M190 165 Q200 170 210 165" stroke="#2D3748" stroke-width="2" fill="none"/>
+  
+  <!-- Professional Suit Body -->
+  <rect x="160" y="195" width="80" height="120" fill="url(#suitGradient)" rx="8"/>
+  
+  <!-- Shirt -->
+  <rect x="175" y="200" width="50" height="110" fill="#FFFFFF" rx="4"/>
+  
+  <!-- Tie -->
+  <rect x="195" y="200" width="10" height="80" fill="#DC2626" rx="2"/>
+  
+  <!-- Suit Jacket Lapels -->
+  <path d="M160 200 L180 220 L175 240 L160 235 Z" fill="url(#suitGradient)"/>
+  <path d="M240 200 L220 220 L225 240 L240 235 Z" fill="url(#suitGradient)"/>
+  
+  <!-- Arms -->
+  <rect x="120" y="220" width="40" height="80" fill="url(#suitGradient)" rx="20"/>
+  <rect x="240" y="220" width="40" height="80" fill="url(#suitGradient)" rx="20"/>
+  
+  <!-- Hands -->
+  <circle cx="140" cy="300" r="12" fill="#F3E8D3"/>
+  <circle cx="260" cy="300" r="12" fill="#F3E8D3"/>
+  
+  <!-- Professional Accessories -->
+  <!-- Briefcase -->
+  <rect x="290" y="290" width="30" height="20" fill="#8B4513" rx="2"/>
+  <rect x="295" y="285" width="20" height="5" fill="#A0522D" rx="1"/>
+  
+  <!-- Success Badge -->
+  <circle cx="350" cy="100" r="20" fill="#10B981"/>
+  <path d="M342 100 L348 106 L358 94" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Professional Certificate -->
+  <rect x="50" y="80" width="40" height="30" fill="white" stroke="#E5E7EB" stroke-width="1" rx="2"/>
+  <circle cx="70" cy="95" r="8" fill="#F59E0B"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="50" r="2" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="320" cy="60" r="3" fill="#10B981" opacity="0.7"/>
+  <circle cx="350" cy="200" r="2" fill="#F59E0B" opacity="0.8"/>
+</svg>

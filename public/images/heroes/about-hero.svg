@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5BBA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="teamGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+  
+  <!-- Modern Office Building -->
+  <rect x="50" y="200" width="120" height="300" fill="url(#buildingGradient)" rx="8"/>
+  <rect x="60" y="220" width="15" height="20" fill="#FFD700" rx="2"/>
+  <rect x="85" y="220" width="15" height="20" fill="#FFD700" rx="2"/>
+  <rect x="110" y="220" width="15" height="20" fill="#FFD700" rx="2"/>
+  <rect x="135" y="220" width="15" height="20" fill="#FFD700" rx="2"/>
+  
+  <!-- Team Building -->
+  <rect x="200" y="250" width="100" height="250" fill="url(#teamGradient)" rx="6"/>
+  <rect x="210" y="270" width="12" height="15" fill="#FFFFFF" rx="1"/>
+  <rect x="230" y="270" width="12" height="15" fill="#FFFFFF" rx="1"/>
+  <rect x="250" y="270" width="12" height="15" fill="#FFFFFF" rx="1"/>
+  <rect x="270" y="270" width="12" height="15" fill="#FFFFFF" rx="1"/>
+  
+  <!-- Professional Team Members -->
+  <circle cx="400" cy="300" r="40" fill="#F3F4F6"/>
+  <circle cx="400" cy="290" r="15" fill="#6B7280"/>
+  <rect x="385" y="305" width="30" height="35" fill="#374151" rx="15"/>
+  
+  <circle cx="500" cy="320" r="35" fill="#F3F4F6"/>
+  <circle cx="500" cy="312" r="12" fill="#6B7280"/>
+  <rect x="488" y="325" width="24" height="30" fill="#1F2937" rx="12"/>
+  
+  <circle cx="350" cy="350" r="38" fill="#F3F4F6"/>
+  <circle cx="350" cy="340" r="14" fill="#6B7280"/>
+  <rect x="336" y="354" width="28" height="32" fill="#111827" rx="14"/>
+  
+  <!-- Success Icons -->
+  <circle cx="600" cy="200" r="25" fill="#10B981"/>
+  <path d="M590 200 L598 208 L610 192" stroke="white" stroke-width="3" fill="none"/>
+  
+  <circle cx="650" cy="250" r="20" fill="#3B82F6"/>
+  <rect x="645" y="245" width="10" height="10" fill="white" rx="1"/>
+  
+  <!-- European Flags -->
+  <rect x="680" y="150" width="30" height="20" fill="#003399"/>
+  <circle cx="695" cy="160" r="8" fill="#FFCC00"/>
+  
+  <!-- Consultation Documents -->
+  <rect x="120" y="400" width="60" height="80" fill="white" stroke="#E5E7EB" stroke-width="2" rx="4"/>
+  <line x1="130" y1="420" x2="170" y2="420" stroke="#6B7280" stroke-width="2"/>
+  <line x1="130" y1="440" x2="170" y2="440" stroke="#6B7280" stroke-width="2"/>
+  <line x1="130" y1="460" x2="160" y2="460" stroke="#6B7280" stroke-width="2"/>
+  
+  <!-- Achievement Trophy -->
+  <rect x="550" y="400" width="40" height="60" fill="#FFD700" rx="20"/>
+  <rect x="560" y="410" width="20" height="30" fill="#FFA500" rx="10"/>
+  <rect x="545" y="460" width="50" height="15" fill="#8B4513" rx="7"/>
+  
+  <!-- Mission Statement Banner -->
+  <rect x="250" y="100" width="300" height="60" fill="rgba(59, 130, 246, 0.9)" rx="30"/>
+  <text x="400" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">ABOUT AUSBILDUNGVISA</text>
+  <text x="400" y="145" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Your Trusted European Journey Partner</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="3" fill="#10B981" opacity="0.7"/>
+  <circle cx="700" cy="350" r="4" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="750" cy="400" r="2" fill="#F59E0B" opacity="0.8"/>
+  
+  <!-- Professional Growth Arrow -->
+  <path d="M50 550 Q200 500 350 520 Q500 540 650 480" stroke="#10B981" stroke-width="3" fill="none" opacity="0.7"/>
+  <polygon points="645,475 655,480 645,485" fill="#10B981" opacity="0.7"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="buildingGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="400" height="200" fill="url(#skyGrad1)"/>
+  
+  <!-- Main Building -->
+  <rect x="50" y="60" width="300" height="140" fill="url(#buildingGrad1)" rx="5"/>
+  
+  <!-- Windows Grid -->
+  <rect x="70" y="80" width="25" height="30" fill="#3b82f6" opacity="0.8"/>
+  <rect x="110" y="80" width="25" height="30" fill="#10b981" opacity="0.8"/>
+  <rect x="150" y="80" width="25" height="30" fill="#f59e0b" opacity="0.8"/>
+  <rect x="190" y="80" width="25" height="30" fill="#ef4444" opacity="0.8"/>
+  <rect x="230" y="80" width="25" height="30" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="270" y="80" width="25" height="30" fill="#06b6d4" opacity="0.8"/>
+  <rect x="310" y="80" width="25" height="30" fill="#84cc16" opacity="0.8"/>
+  
+  <rect x="70" y="130" width="25" height="30" fill="#f59e0b" opacity="0.8"/>
+  <rect x="110" y="130" width="25" height="30" fill="#3b82f6" opacity="0.8"/>
+  <rect x="150" y="130" width="25" height="30" fill="#10b981" opacity="0.8"/>
+  <rect x="190" y="130" width="25" height="30" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="230" y="130" width="25" height="30" fill="#ef4444" opacity="0.8"/>
+  <rect x="270" y="130" width="25" height="30" fill="#06b6d4" opacity="0.8"/>
+  <rect x="310" y="130" width="25" height="30" fill="#84cc16" opacity="0.8"/>
+  
+  <!-- Entrance -->
+  <rect x="180" y="160" width="40" height="40" fill="#1f2937" rx="5"/>
+  <rect x="185" y="165" width="30" height="30" fill="#3b82f6" opacity="0.6"/>
+  
+  <!-- Company Sign -->
+  <rect x="120" y="40" width="160" height="25" fill="#1e40af" rx="5"/>
+  <text x="200" y="57" text-anchor="middle" fill="white" font-size="12" font-weight="bold">AUSBILDUNGVISA</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="30" r="8" fill="#ffffff" opacity="0.6"/>
+  <circle cx="320" cy="25" r="6" fill="#ffffff" opacity="0.4"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="190" width="400" height="10" fill="#374151"/>
+</svg>

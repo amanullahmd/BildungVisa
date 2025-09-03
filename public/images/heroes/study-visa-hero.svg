@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f4f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#dd0000;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#ffce00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#heroGradient)"/>
+  
+  <!-- University Buildings -->
+  <rect x="100" y="200" width="120" height="300" fill="url(#buildingGradient)" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="250" y="150" width="100" height="350" fill="url(#buildingGradient)" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="380" y="180" width="140" height="320" fill="url(#buildingGradient)" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="550" y="160" width="110" height="340" fill="url(#buildingGradient)" stroke="#d1d5db" stroke-width="2"/>
+  
+  <!-- Building Windows -->
+  <rect x="110" y="220" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="135" y="220" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="160" y="220" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="185" y="220" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  
+  <rect x="260" y="180" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="285" y="180" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="310" y="180" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  <rect x="335" y="180" width="15" height="20" fill="#3b82f6" opacity="0.8"/>
+  
+  <!-- Students -->
+  <circle cx="700" cy="450" r="25" fill="#fbbf24"/>
+  <rect x="690" y="475" width="20" height="40" fill="#3b82f6"/>
+  <rect x="685" y="515" width="10" height="25" fill="#1f2937"/>
+  <rect x="705" y="515" width="10" height="25" fill="#1f2937"/>
+  
+  <circle cx="780" cy="450" r="25" fill="#f59e0b"/>
+  <rect x="770" y="475" width="20" height="40" fill="#ef4444"/>
+  <rect x="765" y="515" width="10" height="25" fill="#1f2937"/>
+  <rect x="785" y="515" width="10" height="25" fill="#1f2937"/>
+  
+  <circle cx="860" cy="450" r="25" fill="#8b5cf6"/>
+  <rect x="850" y="475" width="20" height="40" fill="#10b981"/>
+  <rect x="845" y="515" width="10" height="25" fill="#1f2937"/>
+  <rect x="865" y="515" width="10" height="25" fill="#1f2937"/>
+  
+  <!-- Books and Study Materials -->
+  <rect x="720" y="520" width="30" height="4" fill="#dc2626"/>
+  <rect x="720" y="524" width="30" height="4" fill="#2563eb"/>
+  <rect x="720" y="528" width="30" height="4" fill="#16a34a"/>
+  
+  <!-- Laptop -->
+  <rect x="800" y="520" width="40" height="25" fill="#374151" rx="2"/>
+  <rect x="805" y="525" width="30" height="18" fill="#60a5fa" rx="1"/>
+  
+  <!-- European Flags -->
+  <rect x="950" y="100" width="60" height="40" fill="url(#flagGradient)"/>
+  <rect x="1020" y="120" width="40" height="25" fill="#ff6b35"/>
+  <rect x="1020" y="145" width="40" height="25" fill="#ffffff"/>
+  <rect x="1020" y="170" width="40" height="25" fill="#0066cc"/>
+  
+  <!-- Academic Icons -->
+  <circle cx="150" cy="100" r="30" fill="#fbbf24" opacity="0.8"/>
+  <polygon points="135,85 150,70 165,85 150,115" fill="#ffffff"/>
+  
+  <circle cx="300" cy="80" r="25" fill="#10b981" opacity="0.8"/>
+  <rect x="290" y="75" width="20" height="3" fill="#ffffff"/>
+  <rect x="290" y="80" width="20" height="3" fill="#ffffff"/>
+  <rect x="290" y="85" width="20" height="3" fill="#ffffff"/>
+  
+  <!-- Success Indicators -->
+  <circle cx="1050" cy="300" r="20" fill="#10b981"/>
+  <path d="M1042 300 L1048 306 L1058 294" stroke="#ffffff" stroke-width="3" fill="none"/>
+  
+  <circle cx="1100" cy="350" r="20" fill="#3b82f6"/>
+  <text x="1100" y="356" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="bold">A+</text>
+  
+  <!-- Study Path Arrow -->
+  <path d="M 50 400 Q 300 350 600 400 Q 900 450 1150 400" stroke="#fbbf24" stroke-width="4" fill="none" opacity="0.8"/>
+  <polygon points="1140,395 1150,400 1140,405" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="150" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="120" cy="120" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="200" cy="100" r="4" fill="#ffffff" opacity="0.6"/>
+  <circle cx="450" cy="80" r="3" fill="#ffffff" opacity="0.6"/>
+  <circle cx="500" cy="110" r="2" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- University Name Placeholder -->
+  <rect x="400" y="50" width="400" height="30" fill="#ffffff" opacity="0.9" rx="5"/>
+  <text x="600" y="70" text-anchor="middle" fill="#1e40af" font-size="18" font-weight="bold">EUROPEAN UNIVERSITIES</text>
+</svg>
