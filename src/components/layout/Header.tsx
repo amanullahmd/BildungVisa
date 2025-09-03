@@ -58,7 +58,7 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link href="/" className="group">
-              <Logo size="large" showText={true} />
+              <Logo size="lg" showText={true} />
             </Link>
 
             {/* Desktop Navigation */}
