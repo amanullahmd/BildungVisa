@@ -1,0 +1,15 @@
+{
+  "name": "BildungVisa - German Visa & Ausbildung Services",
+  "short_name": "BildungVisa",
+  "description": "Expert German visa consultation for Bangladeshi students. Ausbildung programs in Pflege, IT, Engineering.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url":

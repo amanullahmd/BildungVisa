@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'BildungVisa - German Visa & Ausbildung Services for Bangladeshi Students',
-    template: '%s | BildungVisa'
+    default: 'bildungvisa.de',
+    template: '%s | bildungvisa.de'
   },
   description: 'Expert German visa consultation for Bangladeshi students. Ausbildung programs in Pflege (Healthcare), IT, Electrical Engineering, Mechanical Engineering. 98% success rate, 250+ success stories.',
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'BildungVisa - German Visa & Ausbildung Services for Bangladeshi Students',
+    title: 'bildungvisa.de',
     description: 'Expert German visa consultation for Bangladeshi students. Ausbildung programs in Pflege (Healthcare), IT, Electrical Engineering, Mechanical Engineering. 98% success rate, 250+ success stories.',
     url: 'https://bildungvisa.de',
     siteName: 'BildungVisa',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BildungVisa - German Visa & Ausbildung Services',
+    title: 'bildungvisa.de',
     description: 'Expert German visa consultation for Bangladeshi students. 98% success rate, 250+ success stories.',
     images: ['/og-image.jpg'],
   },
@@ -105,6 +105,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Favicon and App Icons */}
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#1e40af" />
+        <meta name="msapplication-TileColor" content="#1e40af" />
+        
         <PerformanceOptimizer 
           preloadImages={[
             '/images/heroes/homepage-hero.svg',
